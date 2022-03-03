@@ -1,29 +1,17 @@
 {
-    "name":"交易所产品体系",
-    "children":[
-        {
-            "name":"数据产品",
-            "children":[
-                {
-                    "name":"公开数据",
-                    "value":3938
-                },
-                {
-                    "name":"低保密数据",
-                    "value":3812
-                },
-                {
-                    "name":"中保密数据",
-                    "value":6714
-                },
-                {
-                    "name":"高保密数据",
-                    "value":743
-                }
-            ]
-        },
-        {
-            "name":"数据服务",
+ "name":"交易所产品体系",
+ "children":[
+  {
+   "name":"数据产品",
+   "children":[
+    {"name":"公开数据","value":3938},
+    {"name":"低保密数据","value":3812},
+    {"name":"中保密数据","value":6714},
+    {"name":"高保密数据","value":743}
+    ]
+   },
+  {
+   "name":"数据服务",
             "children":[
                 {
                     "name":"交付服务",
