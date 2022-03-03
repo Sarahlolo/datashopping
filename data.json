@@ -1,9 +1,9 @@
 {
  "name":"交易所产品体系",
- "children":[
+ "children": [
   {
    "name":"数据产品",
-   "children":[
+   "children": [
     {"name":"公开数据","value":3938},
     {"name":"低保密数据","value":3812},
     {"name":"中保密数据","value":6714},
@@ -12,69 +12,36 @@
    },
   {
    "name":"数据服务",
-            "children":[
-                {
-                    "name":"交付服务",
-                    "children":[
-                        {
-                            "name":"访问授权",
-                            "value":3938
-                        },
-                        {
-                            "name":"可信执行环境",
-                            "value":3812
-                        },
-                        {
-                            "name":"数据沙箱",
-                            "value":6714
-                        },
-                        {
-                            "name":"隐私计算",
-                            "value":743
-                        }
-                    ]
-                },
-                {
-                    "name":"数据评估服务",
-                    "children":[
-                        {
-                            "name":"数据质量服务",
-                            "value":3938
-                        },
-                        {
-                            "name":"数据合规性服务",
-                            "value":3812
-                        },
-                        {
-                            "name":"数据治理服务",
-                            "value":6714
-                        },
-                        {
-                            "name":"个性化定制服务",
-                            "value":743
-                        }
-                    ]
-                },
-                {
-                    "name":"数据交易纠纷服务",
-                    "children":[
-                        {
-                            "name":"线索提取",
-                            "value":3938
-                        },
-                        {
-                            "name":"电子证据鉴定",
-                            "value":3812
-                        },
-                        {
-                            "name":"律师服务",
-                            "value":6714
-                        }
-                    ]
-                }
-            ]
-        },
-        {
+   "children": [
+   {
+    "name":"交付服务",
+    "children":[
+    {"name":"访问授权","value":3938},
+    {"name":"可信执行环境","value":3812},
+    {"name":"数据沙箱","value":6714},
+    {"name":"隐私计算","value":743}
+    ]
+   },
+   {
+    "name":"数据评估服务",
+    "children":[
+    {"name":"数据质量服务","value":3938},
+    {"name":"数据合规性服务","value":3812},
+    {"name":"数据治理服务","value":6714},
+    {"name":"个性化定制服务","value":743}
+    ]
+   },
+   {
+    "name":"数据交易纠纷服务",
+    "children":[
+    {"name":"线索提取","value":3938},
+    {"name":"电子证据鉴定","value":3812},
+    {"name":"律师服务","value":6714}
+    ]
+   }
+  ]
+ },
+ {
             "name":"通用算子",
             "children":[
                 {
